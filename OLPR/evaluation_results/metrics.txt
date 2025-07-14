@@ -1,0 +1,7 @@
+Accuracy (Image-Level): 0.8900
+mAP@0.5: 0.9285
+mAP@0.5:0.95: 0.7276
+Precision (YOLO): 1.0000
+Recall (YOLO): 0.8571
+Precision (Image-Level): 1.0000
+Recall (Image-Level): 0.8899
