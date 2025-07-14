@@ -84,7 +84,6 @@ deprecation==2.1.0
 diskcache==5.6.3
 distlib==0.3.9
 distro==1.7.0
-distro-info==1.1+ubuntu0.2
 dj-database-url==0.5.0
 Django==4.0.4
 django-cleanup==6.0.0
@@ -366,10 +365,10 @@ pyrsistent==0.18.1
 pyserial==3.5
 pyspellchecker==0.8.2
 pytesseract==0.3.13
-python-apt==2.4.0+ubuntu4
+#python-apt==2.4.0+ubuntu4
 python-bidi==0.6.6
 python-dateutil==2.9.0.post0
-python-debian==0.1.43+ubuntu1.1
+#python-debian==0.1.43+ubuntu1.1
 python-decouple==3.8
 python-docx==1.2.0
 python-dotenv==1.0.0
