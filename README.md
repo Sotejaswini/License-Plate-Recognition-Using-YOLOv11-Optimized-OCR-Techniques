@@ -127,13 +127,3 @@ OLPRS/
 ## License
 
 This project is licensed under the MIT License.
-
-## References
-
-- X. Fan and W. J. Zha, "Improving robustness of license plate recognition in natural scenes," IEEE Trans. Intelligent Transportation Systems, 2022.
-- I. Shafi et al., "License plate identification and recognition in a non-standard environment using national patterns," Computing and Intelligent Systems, 2022.
-- K. Povishch et al., "A study on Thai license plate recognition: Object detection and transformer learning approaches," Journal of Authorized Computational Intelligence, 2023.
-- Roboflow Universe Projects, "License Plate Recognition Dataset," 2025.
-- Roboflow Universe Projects, "My First Project Dataset," 2025.
-
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/51431686/ad68eca3-d88b-4131-ae84-f6e348e94784/OLPR.pdf
