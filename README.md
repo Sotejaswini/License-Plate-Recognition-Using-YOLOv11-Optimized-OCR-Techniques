@@ -33,8 +33,6 @@ OLPRS/
 ├── test_indian_plate_inputs/  # Test images
 ├── test_indian_plate_results/ # Inference results
 ├── weights/                   # Trained model weights (e.g., best.pt)
-```
-```
 results/
 ├──test_indian_plate_inputs/           
 ├──test_indian_plate_results/
