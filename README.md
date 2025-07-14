@@ -48,7 +48,7 @@ OLPRS/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/tejaswinich17/OLPRS.git
+   git clone https://github.com/Sotejaswini/OLPRS.git
    cd OLPRS
    ```
 
@@ -58,13 +58,12 @@ OLPRS/
    ```
 
 3. **Download Pretrained Weights:**
-   - Download `yolov11n.pt` and `yolov8n.pt` from the Ultralytics YOLO repository.
+   - Download `yolov11n.pt`  from the Ultralytics YOLO repository.
    - Place them in the `weights/` directory.
 
 4. **Prepare Datasets:**
    - Download datasets from Roboflow:
      - License Plate Recognition Dataset
-     - My First Project Dataset
    - Organize datasets in YOLO format (70:20:10 split for train/validation/test) and place them in a suitable directory.
 
 5. **Install Tesseract OCR:**
@@ -82,24 +81,26 @@ OLPRS/
 - Configure hyperparameters as specified (epochs=50, batch=4, img=640, lr=0.0002, etc.).
 - Save the best weights to the `weights/` directory.
 
+### Evaluation
+
+- Run the evaluation script to compute metrics:
+  ```bash
+  python evaluation.py --model OLPR/weights/best_yolo11n.pt --data data/data.yaml --test-img-dir data/test/images --test-label-dir data/test/labels
+  
+  ```
+- Results and visualizations (e.g., confusion matrices, PR curves) are saved in the `evaluation_results/` directory.
+
+ 
 ### Inference
 
 - Run the Streamlit app for real-time recognition:
   ```bash
-  streamlit run app_olpr.py
+  streamlit run OLPR/app_olpr.py
   ```
 - Or use the inference script for batch processing:
   ```bash
-  python inference.py --input test_indian_plate_inputs/ --output test_indian_plate_results/
+  python OLPR/inference.py --image test_image.jpg --model OLPR/weights/best_yolo11n.pt --output results/
   ```
-
-### Evaluation
-
-- Run the evaluation script to compute metrics (mAP, CRR, PRA):
-  ```bash
-  python evaluation.py
-  ```
-- Results and visualizations (e.g., confusion matrices, PR curves) are saved in the `evaluation_results/` directory.
 
 ## Performance
 
