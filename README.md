@@ -48,8 +48,8 @@ OLPRS/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Sotejaswini/OLPRS.git
-   cd OLPRS
+   git clone https://github.com/Sotejaswini/License-Plate-Recognition-Using-YOLOv11-Optimized-OCR-Techniques.git
+   cd License-Plate-Recognition-Using-YOLOv11-Optimized-OCR-Techniques
    ```
 
 2. **Install Dependencies:**
