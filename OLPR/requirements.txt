@@ -1,4 +1,39 @@
-opencv-python==4.10.0
-numpy==2.3.1
-torch==2.4.1
-streamlit==1.46.1
+# Core web framework
+streamlit>=1.28.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+Pillow>=9.5.0
+
+# Deep Learning and AI
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+easyocr>=1.7.0
+
+# Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Concurrent processing
+# concurrent.futures is built-in, no need to install
+
+# Standard library modules (no installation needed)
+# os, json, base64, datetime, re, logging, io, time are built-in
+
+# Optional: For better performance on CPU
+# Uncomment the following lines if you want CPU optimizations
+# intel-openmp>=2023.0.0
+# mkl>=2023.0.0
+
+# Optional: For CUDA support (if deploying on GPU-enabled systems)
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+
+# Development and testing (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
