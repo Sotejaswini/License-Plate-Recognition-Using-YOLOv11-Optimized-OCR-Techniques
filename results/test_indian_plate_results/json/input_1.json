@@ -1,0 +1,1 @@
+[{"detection_id": 1, "license_plate": "HR26DA2330", "detection_confidence": 0.813105046749115, "ocr_score": 100.0, "bbox": [1, 184, 165, 269], "all_ocr_results": [{"text": "HR26DA2330", "score": 100, "engine": "ocr_api", "variant": "original", "confidence": 70, "raw_text": "HR26DA2330", "state": "Haryana"}], "timestamp": "2025-07-10T12:32:22.623285", "state": "Haryana"}]
