@@ -1,4 +1,4 @@
-# Core web framework
+ # Core web framework
 streamlit>=1.28.0
 
 # Computer Vision and Image Processing
@@ -6,10 +6,13 @@ opencv-python-headless>=4.8.0
 Pillow>=9.5.0
 
 # Deep Learning and AI
-torch==2.7.1+cpu  # Matches logs
-torchvision==0.22.1+cpu  # Matches logs
-ultralytics==8.3.167  # Matches logs
+#torch>=2.0.0
+#torchvision>=0.15.0
+#ultralytics>=8.0.0
 easyocr>=1.7.0
+torch==2.3.0+cpu
+torchvision==0.18.0+cpu
+ultralytics==8.2.0
 
 # Scientific Computing
 numpy>=1.24.0
@@ -18,8 +21,21 @@ pandas>=2.0.0
 # HTTP requests
 requests>=2.31.0
 
-# Enhanced logging
-rich>=14.0.0
+# Concurrent processing
+# concurrent.futures is built-in, no need to install
 
-# Performance monitoring
-psutil>=7.0.0
+# Standard library modules (no installation needed)
+# os, json, base64, datetime, re, logging, io, time are built-in
+
+# Optional: For better performance on CPU
+# Uncomment the following lines if you want CPU optimizations
+# intel-openmp>=2023.0.0
+# mkl>=2023.0.0
+
+# Optional: For CUDA support (if deploying on GPU-enabled systems)
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+
+# Development and testing (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
