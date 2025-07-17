@@ -494,7 +494,7 @@ def main():
     if 'lpr_system' not in st.session_state:
         st.session_state.lpr_system = None
     if 'yolo_path' not in st.session_state:
-        st.session_state.yolo_path = os.path.join(DEFAULT_WEIGHTS_DIR, "best_yolo11n.pt")
+        st.session_state.yolo_path = os.path.join(DEFAULT_WEIGHTS_DIR, "best_yolo.pt")
     if 'lprnet_path' not in st.session_state:
         st.session_state.lprnet_path = os.path.join(DEFAULT_WEIGHTS_DIR, "best_lprnet.pth")
     if 'ocr_api_key' not in st.session_state:
