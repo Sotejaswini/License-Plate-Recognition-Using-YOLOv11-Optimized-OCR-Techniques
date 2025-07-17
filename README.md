@@ -9,7 +9,9 @@ The Optimized License Plate Recognition System (OLPRS) is an advanced ALPR frame
 - **Plate Recognition Accuracy (PRA):** 76.67% (on 30 test samples)
 
 Deployed via Streamlit for CPU-based real-time inference, OLPRS is optimized for resource-constrained environments and addresses challenges like diverse plate formats, blur, and poor lighting.
-##For demo --> [!https://drive.google.com/file/d/1afzoM2z6RxAj9Rul_qwXaZvI0gpCR7Pl/view?usp=sharing]
+## 📽️ Demo Video
+[🔗 Watch the Demo Video](https://drive.google.com/file/d/1afzoM2z6RxAj9Rul_qwXaZvI0gpCR7Pl/view?usp=sharing)
+
 
 ## Key Features
 
