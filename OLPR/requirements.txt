@@ -1,4 +1,4 @@
- # Core web framework
+# Core web framework
 streamlit>=1.28.0
 
 # Computer Vision and Image Processing
@@ -6,13 +6,10 @@ opencv-python-headless>=4.8.0
 Pillow>=9.5.0
 
 # Deep Learning and AI
-#torch>=2.0.0
-#torchvision>=0.15.0
-#ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
 easyocr>=1.7.0
-torch==2.3.0+cpu
-torchvision==0.18.0+cpu
-ultralytics==8.2.0
 
 # Scientific Computing
 numpy>=1.24.0
