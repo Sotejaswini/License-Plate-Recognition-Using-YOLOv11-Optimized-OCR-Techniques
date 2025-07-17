@@ -6,9 +6,9 @@ opencv-python-headless>=4.8.0
 Pillow>=9.5.0
 
 # Deep Learning and AI
-torch==2.7.1+cpu  # Match the version installed in logs for consistency
-torchvision==0.22.1+cpu  # Match the version installed in logs
-ultralytics==8.3.167  # Match the version installed in logs
+torch==2.7.1+cpu  # Matches logs
+torchvision==0.22.1+cpu  # Matches logs
+ultralytics==8.3.167  # Matches logs
 easyocr>=1.7.0
 
 # Scientific Computing
@@ -18,8 +18,8 @@ pandas>=2.0.0
 # HTTP requests
 requests>=2.31.0
 
-# Enhanced logging (optional but recommended)
+# Enhanced logging
 rich>=14.0.0
 
-# Optional: For better performance monitoring
+# Performance monitoring
 psutil>=7.0.0
