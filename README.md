@@ -124,15 +124,6 @@ results/
 - Lack of transformer-based models limits sequence modeling accuracy.
 - GPU interruptions during training constrained scalability.
 
-## Future Work
-
-- Expand the dataset with public contributions for broader edge-case coverage.
-- Upgrade to paid GPU resources for extended training.
-- Integrate lightweight transformer models (e.g., DistilBERT) for improved recognition.
-- Develop a mobile app for on-the-go recognition.
-- Add multi-lingual support for regional scripts.
-- Deploy OLPRS in live traffic systems for real-world validation.
-
 ## License
 
 This project is licensed under the MIT License.
