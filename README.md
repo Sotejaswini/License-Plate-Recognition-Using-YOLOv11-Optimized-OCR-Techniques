@@ -14,8 +14,6 @@ Deployed via Streamlit for CPU-based real-time inference, OLPRS is optimized for
 
 [🔗 View PDF](https://github.com/Sotejaswini/License-Plate-Recognition-Using-YOLOv11-Optimized-OCR-Techniques/blob/main/OLPR/OLPR.pdf)
 
-[🔗 View Results](https://github.com/Sotejaswini/License-Plate-Recognition-Using-YOLOv11-Optimized-OCR-Techniques/tree/main/results/test_indian_plate_results)
-
 
 ## Key Features
 
