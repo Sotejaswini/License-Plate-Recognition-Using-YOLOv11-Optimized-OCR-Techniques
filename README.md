@@ -70,7 +70,7 @@ results/
    ```
 
 3. **Download Pretrained Weights:**
-   - Download `yolov8n.pt` and `yolov11n.pt`  from the Ultralytics YOLO repository.
+   - Download `yolov8n.pt` and `yolov11n.pt`  from the Ultralytics YOLO repository https://github.com/ultralytics/ultralytics.
    - Place them in the `weights/` directory.
 
 4. **Prepare Datasets:**
